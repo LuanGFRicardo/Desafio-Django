@@ -6,6 +6,7 @@
     <body>
         <h1>Exibir a partir de URL</h1>
 
+        <!-- Formulário para o usuário inserir a URL da imagem -->
         <form method="POST">
             {% csrf_token %}
             <label for="image_url">Insira a URL da Imagem:</label>
@@ -13,11 +14,13 @@
             <button type="submit">Mostrar</button>
         </form>
 
+        <!-- Exibe a imagem se uma URL foi submetida-->
         {% if image_url %}
             <h2>Imagem Exibida:</h2>
             <img src="{{ image_url }}" alt="Imagem do Usuário" style="max-width: 100%; height: auto;">
         {% endif %}
 
+        <!-- Link para voltar à página inicial -->
         <br>
         <a href="{% url 'home' %}">Voltar para Home</a>
     </body>
