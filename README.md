@@ -24,18 +24,3 @@ Funcionalidades:
   Página Inicial: Contém dois botões para acessar as funcionalidades.
   Página de Inserção de Imagem: Insira a URL de uma imagem e clique em "Mostrar" para visualizá-la.
   Página de Exibição da Tabela: Mostra uma tabela populada com os dados do arquivo alunos.csv.
-
-Estrutura do Desafio:
-  |desafio_django/
-        |principal/ # Diretório da aplicação Django
-              |templates/ # Diretório de templates HTML
-                    |principal/
-                          |home.html # Página inicial
-                          |image_url.html # Página de inserção de URL de imagem
-                          |exibir_tabela.html # Página de exibição de tabela CSV
-              |views.py # Arquivo com as views do desafio
-              |urls.py # Arquivo de roteamento de URLs
-                    |__init__.py # Arquivo de inicialização
-  |manage.py # Script de gerenciamento do Django
-  |alunos.csv # Arquivo CSV com os dados para a tabela
-  |README.md # Intruções do projeto
