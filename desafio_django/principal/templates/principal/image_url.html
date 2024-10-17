@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inserir URL de Imagem</title>
+    </head>
+    <body>
+        <h1>Exibir a partir de URL</h1>
+
+        <form method="POST">
+            {% csrf_token %}
+            <label for="image_url">Insira a URL da Imagem:</label>
+            <input type="url" id="image_url" name="image_url" required>
+            <button type="submit">Mostrar</button>
+        </form>
+
+        {% if image_url %}
+            <h2>Imagem Exibida:</h2>
+            <img src="{{ image_url }}" alt="Imagem do Usuário" style="max-width: 100%; height: auto;">
+        {% endif %}
+
+        <br>
+        <a href="{% url 'home' %}">Voltar para Home</a>
+    </body>
+</html>
