@@ -5,20 +5,13 @@ Este é um projeto básico em Django que demonstra como renderizar duas páginas
   2. Página de exibição de tabela a partir de CSV: Exibe uma tabela populada com dados de um arquivo CSV.
 
 Pré-requisitos:
-  Git
-  Python 3.x
-  pip
+  1. Python: https://www.python.org/downloads/
 
 Como Executar o Projeto:
-  1. Clone o Repositório:
-    Execute no cmd <git clone https://github.com/LuanGFRicardo/Desafio-Django.git /caminho-de-preferencia>
-  2. Instale as Dependências:
-     pip install django
-  3. Execute o Servidor de Desenvolvimento:
-     Execute no cmd <cd /caminho-de-preferencia/Desafio-Django/desafio_django/>
-     python manage.py runserver
-  4. Acesse o Projeto no Navegador:
-     http://127.0.0.1:8000/
+  1. Baixe o Repositório: https://github.com/LuanGFRicardo/Desafio-Django/archive/refs/heads/main.zip
+  2. Instale as Dependências: Execute no cmd <pip install django>
+  3. Execute o Servidor de Desenvolvimento: Execute no cmd dentro do diretório desafio_django <python manage.py runserver>
+  4. Acesse o Projeto no Navegador: http://127.0.0.1:8000/
   
 Funcionalidades:
   Página Inicial: Contém dois botões para acessar as funcionalidades.
