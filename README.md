@@ -9,8 +9,8 @@ Pré-requisitos:
 
 Como Executar o Projeto:
   1. Baixe o Repositório: https://github.com/LuanGFRicardo/Desafio-Django/archive/refs/heads/main.zip
-  2. Instale as Dependências: Execute no cmd <pip install django>
-  3. Execute o Servidor de Desenvolvimento: Execute no cmd dentro do diretório desafio_django <python manage.py runserver>
+  2. Instale as Dependências: Execute no cmd pip install django
+  3. Execute o Servidor de Desenvolvimento: Execute no cmd dentro do diretório desafio_django python manage.py runserver
   4. Acesse o Projeto no Navegador: http://127.0.0.1:8000/
   
 Funcionalidades:
